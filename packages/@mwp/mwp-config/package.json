@@ -1,5 +1,5 @@
 {
-  "name": "@mwp/mwp-http",
+  "name": "@mwsp/mwp-config",
   "version": "3.0.0",
   "description": "> TODO: description",
   "author": "yuan_wy_wang <631824375@qq.com>",
@@ -27,5 +27,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "ae8b3a1a688629284b1ddb96513dc010fd334464"
+  "gitHead": "3b687a41e93834d06c52edad9926d4da64b314da"
 }
