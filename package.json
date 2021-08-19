@@ -8,7 +8,6 @@
   "scripts": {
     "build-http": "lerna run build --scope @mwp/mwp-http",
     "build-util": "lerna run build --scope @mwp/mwp-util",
-    "build-config": "lerna run build --scope @mwp/mwp-config",
     "build": "concurrently \"npm run build-http\" \"npm run build-util\" \"npm run build-config\""
   },
   "keywords": [

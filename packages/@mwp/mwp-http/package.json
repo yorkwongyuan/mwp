@@ -1,5 +1,5 @@
 {
-  "name": "mwp-http",
+  "name": "@mwp/mwp-http",
   "version": "1.1.0",
   "description": "> TODO: description",
   "author": "yuan_wy_wang <631824375@qq.com>",
@@ -23,5 +23,7 @@
   "bugs": {
     "url": "https://github.com/yorkwongyuan/mwp/issues"
   },
-  "gitHead": "f613c91fa7c56948d57a8279a6a2cf974cdaa46e"
+  "publishConfig": {
+    "access": "public"
+  }
 }
