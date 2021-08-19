@@ -1,0 +1,14 @@
+{
+  "npmClient": "yarn",
+  "useWorkSpaces": true,
+  "packages": [
+    "packages/@mwp/*"
+  ],
+  "version": "independent",
+  "command": {
+    "publish": {
+      "ignoreChanges": ["**/node_modules/**"],
+      "message": "chore: publish"
+    }
+  }
+}
