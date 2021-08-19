@@ -1,6 +1,6 @@
 {
   "name": "mwp",
-  "private": false,
+  "private": true,
   "workspaces": ["packages/@mwp/*"],
   "devDependencies": {
     "lerna": "^4.0.0"
