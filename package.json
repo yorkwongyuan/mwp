@@ -10,6 +10,9 @@
     "build-util": "lerna run build --scope @mwp/mwp-util",
     "build": "concurrently \"npm run build-http\" \"npm run build-util\" \"npm run build-config\""
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "micro",
     "util",
