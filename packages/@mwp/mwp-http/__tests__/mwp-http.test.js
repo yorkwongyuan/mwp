@@ -2,6 +2,6 @@
 
 const mwpHttp = require('..');
 
-describe('@mwp/mwp-http', () => {
+describe('mwp-http', () => {
     it('needs tests');
 });

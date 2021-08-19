@@ -1,5 +1,5 @@
 {
-  "name": "@mwp/mwp-util",
+  "name": "mwp-util",
   "version": "1.2.0",
   "description": "> TODO: description",
   "author": "yuan_wy_wang <631824375@qq.com>",
@@ -25,6 +25,5 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "gitHead": "023bc931d4c3af635123d269adb52bb98e6ddde5"
+  }
 }

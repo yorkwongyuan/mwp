@@ -1,11 +1,11 @@
-# `@mwp/mwp-http`
+# `mwp-http`
 
 > TODO: description
 
 ## Usage
 
 ```
-const mwpHttp = require('@mwp/mwp-http');
+const mwpHttp = require('mwp-http');
 
 // TODO: DEMONSTRATE API
 ```
