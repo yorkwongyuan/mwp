@@ -1,5 +1,5 @@
 {
-  "name": "root",
+  "name": "mwp",
   "private": true,
   "workspaces": ["packages/@mwp/*"],
   "devDependencies": {

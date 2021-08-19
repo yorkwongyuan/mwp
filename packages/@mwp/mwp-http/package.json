@@ -1,14 +1,14 @@
 {
-  "name": "@mwp/mwp-util",
-  "version": "1.0.2",
+  "name": "mwp-http",
+  "version": "1.0.0",
   "description": "> TODO: description",
   "author": "yuan_wy_wang <631824375@qq.com>",
   "homepage": "https://github.com/yorkwongyuan/mwp#readme",
   "license": "ISC",
-  "main": "lib/mwp-util.js",
-  "types": "mwp-util.d.ts",
+  "main": "lib/mwp-http.js",
   "directories": {
-    "lib": "lib"
+    "lib": "lib",
+    "test": "__tests__"
   },
   "files": [
     "lib"
@@ -22,8 +22,5 @@
   },
   "bugs": {
     "url": "https://github.com/yorkwongyuan/mwp/issues"
-  },
-  "publishConfig": {
-    "access": "public"
   }
 }
