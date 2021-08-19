@@ -1,3 +1,3 @@
 declare class mwpHttp {
-  getName(): string
+  getName(params:string, age: number): string
 }
