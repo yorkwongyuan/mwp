@@ -1,4 +1,4 @@
-declare namespace mwpConst {
+declare module mwpConst {
   namespace REFERRAL {
     let UNRECEIVED:string;
     let HADACCEPTED:string;

@@ -10,4 +10,5 @@ const mwpConst = {
         REVOKE: 'REVOKE'
     }
 }
+
 module.exports = mwpConst;
