@@ -1,4 +1,6 @@
-declare module '@kd-mwp/mwp-const' {
+import mwpConst from "./lib/mwp-const";
+
+declare namespace mwpConst {
     namespace REFERRAL {
       let UNRECEIVED:string;
       let HADACCEPTED:string;
