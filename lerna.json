@@ -2,7 +2,7 @@
   "npmClient": "yarn",
   "useWorkSpaces": true,
   "packages": [
-    "packages/@mwp/*"
+    "packages/@kd-mwp/*"
   ],
   "version": "independent",
   "command": {

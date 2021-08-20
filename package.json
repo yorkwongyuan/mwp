@@ -1,13 +1,13 @@
 {
   "name": "mwp",
   "private": true,
-  "workspaces": ["packages/@mwp/*"],
+  "workspaces": ["packages/@kd-mwp/*"],
   "devDependencies": {
     "lerna": "^4.0.0"
   },
   "scripts": {
-    "build-config": "lerna run build --scope @mwp/mwp-config",
-    "build-util": "lerna run build --scope @mwp/mwp-util",
+    "build-config": "lerna run build --scope @kd-mwp/mwp-config",
+    "build-util": "lerna run build --scope @kd-mwp/mwp-util",
     "build": "concurrently \"npm run build-config\""
   },
   "publishConfig": {
