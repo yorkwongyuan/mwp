@@ -1,6 +1,6 @@
 {
   "name": "@mwp/mwp-const",
-  "version": "1.0.1",
+  "version": "0.0.1",
   "description": "> TODO: description",
   "author": "yuan_wy_wang <631824375@qq.com>",
   "homepage": "https://github.com/yorkwongyuan/mwp#readme",
@@ -25,5 +25,6 @@
   },
   "bugs": {
     "url": "https://github.com/yorkwongyuan/mwp/issues"
-  }
+  },
+  "gitHead": "efe7d66b3865ccb7bd47fa9364fb82e66bd97f1b"
 }
