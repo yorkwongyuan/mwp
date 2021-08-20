@@ -14,7 +14,7 @@ declare namespace mwpConst {
   let name:string;
 }
 
-declare class getName {
-  name:string;
-  age:number
+declare function getName (name:string, age:number) {
+  this.name = name
+  this.age = age
 }
