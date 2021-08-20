@@ -1,14 +1,11 @@
-import mwpConst from "./lib/mwp-const"
-
-enum REFERRAL {
-  UNRECEIVED,
-  HADACCEPTED,
-  HADREPORT,
-  CANCEL,
-  NOTACCEPTED,
-  REVOKE,
-  HAHA
-}
 declare namespace mwpConst {
-  let REFERRAL: REFERRAL
+  namespace REFERRAL {
+    let UNRECEIVED:string;
+    let HADACCEPTED:string;
+    let HADREPORT:string;
+    let CANCEL:string;
+    let NOTACCEPTED:string;
+    let REVOKE:string;
+    let HAHA:string;
+  }
 }
