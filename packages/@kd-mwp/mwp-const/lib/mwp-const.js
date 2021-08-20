@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports = {
+const mwpConst = {
     REFERRAL: {
         UNRECEIVED: 'UNRECEIVED',
         HADACCEPTED: 'HADACCEPTED',
@@ -10,3 +10,5 @@ module.exports = {
         REVOKE: 'REVOKE'
     }
 }
+
+module.exports = mwpConst
