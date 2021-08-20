@@ -1,3 +1,3 @@
-declare class MwpConst {
+declare class mwpConst {
   getName(): string
 }

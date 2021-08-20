@@ -1,5 +1,5 @@
 {
-  "name": "mwp-const",
+  "name": "@kd-mwp/mwp-const",
   "version": "0.0.27",
   "description": "> TODO: description",
   "author": "yuan_wy_wang <631824375@qq.com>",
@@ -12,7 +12,8 @@
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "lib",
+    "mwp-const.d.ts"
   ],
   "publishConfig": {
     "access": "public"
