@@ -5,7 +5,7 @@
 1 notice cli v4.0.0
 2 verbose rootPath /Users/wangy/IT/微前端/mwp
 3 info versioning independent
-4 verbose session 069dde77108c4840
+4 verbose session 39c5e4115be2514d
 5 verbose user-agent lerna/4.0.0/node@v11.2.0+x64 (darwin)
 6 silly argv { _: [ 'publish' ], composed: 'publish', lernaVersion: '4.0.0' }
 7 verbose rootPath /Users/wangy/IT/微前端/mwp
@@ -18,15 +18,15 @@
 14 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 0
 15 silly hasTags
 16 verbose hasTags true
-17 silly git-describe.sync "@kd-mwp/mwp-const@0.0.19-1-gc7ad7d8" => {"lastTagName":"@kd-mwp/mwp-const@0.0.19","lastVersion":"0.0.19","refCount":"1","sha":"c7ad7d8","isDirty":false}
-18 info Looking for changed packages since @kd-mwp/mwp-const@0.0.19
+17 silly git-describe.sync "@kd-mwp/mwp-const@0.0.20-1-g5508d86" => {"lastTagName":"@kd-mwp/mwp-const@0.0.20","lastVersion":"0.0.20","refCount":"1","sha":"5508d86","isDirty":false}
+18 info Looking for changed packages since @kd-mwp/mwp-const@0.0.20
 19 info ignoring diff in paths matching [ '**/node_modules/**' ]
 20 silly checking diff packages/@kd-mwp/mwp-const
-21 silly found diff in packages/@kd-mwp/mwp-const/mwp-const.d.ts
-22 verbose filtered diff [ 'packages/@kd-mwp/mwp-const/mwp-const.d.ts' ]
+21 silly found diff in packages/@kd-mwp/mwp-const/package.json
+22 verbose filtered diff [ 'packages/@kd-mwp/mwp-const/package.json' ]
 23 verbose updated @kd-mwp/mwp-const
-24 verbose git-describe undefined => "@kd-mwp/mwp-const@0.0.19-1-gc7ad7d8"
-25 silly git-describe parsed => {"lastTagName":"@kd-mwp/mwp-const@0.0.19","lastVersion":"0.0.19","refCount":"1","sha":"c7ad7d8","isDirty":false}
+24 verbose git-describe undefined => "@kd-mwp/mwp-const@0.0.20-1-g5508d86"
+25 silly git-describe parsed => {"lastTagName":"@kd-mwp/mwp-const@0.0.20","lastVersion":"0.0.20","refCount":"1","sha":"5508d86","isDirty":false}
 26 info execute Skipping releases
 27 silly lifecycle No script for "preversion" in "mwp", continuing
 28 silly lifecycle No script for "preversion" in "@kd-mwp/mwp-const", continuing
@@ -35,15 +35,15 @@
 31 silly gitAdd [ 'packages/@kd-mwp/mwp-const/package.json' ]
 32 silly gitCommit chore: publish
 32 silly gitCommit
-32 silly gitCommit  - @kd-mwp/mwp-const@0.0.20
+32 silly gitCommit  - @kd-mwp/mwp-const@0.0.21
 33 verbose git [ 'commit',
 33 verbose git   '-F',
-33 verbose git   '/private/var/folders/t0/gjvnq1bn0dd5t2sx2pz5f72c0000gn/T/bb40d986-f0bb-4c2a-8258-5748d4773826/lerna-commit.txt' ]
-34 silly gitTag @kd-mwp/mwp-const@0.0.20
+33 verbose git   '/private/var/folders/t0/gjvnq1bn0dd5t2sx2pz5f72c0000gn/T/d3e1847d-8dfc-4d0c-b2c7-a8f8e255c3b6/lerna-commit.txt' ]
+34 silly gitTag @kd-mwp/mwp-const@0.0.21
 35 verbose git [ 'tag',
-35 verbose git   '@kd-mwp/mwp-const@0.0.20',
+35 verbose git   '@kd-mwp/mwp-const@0.0.21',
 35 verbose git   '-m',
-35 verbose git   '@kd-mwp/mwp-const@0.0.20' ]
+35 verbose git   '@kd-mwp/mwp-const@0.0.21' ]
 36 silly lifecycle No script for "postversion" in "@kd-mwp/mwp-const", continuing
 37 silly lifecycle No script for "postversion" in "mwp", continuing
 38 info git Pushing tags...
@@ -53,23 +53,23 @@
 42 verbose Retrieving npm user profile
 43 warn registry Unexpected warning for https://registry.npmjs.org/: Miscellaneous Warning ECONNRESET: request to https://registry.npmjs.org/-/npm/v1/user failed, reason: read ECONNRESET
 44 warn registry Using stale data from https://registry.npmjs.org/ due to a request error during revalidation.
-45 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 82ms (from cache)
+45 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 19160ms (from cache)
 46 silly npm profile get received {"tfa":false,"name":"yorkwong","email":"631824375@qq.com","email_verified":true,"created":"2018-08-19T14:24:02.616Z","updated":"2021-08-19T13:55:37.172Z","cidr_whitelist":null,"fullname":"wong yuan"}
 47 silly get npm username received {"username":"yorkwong","tfa":false,"name":"yorkwong","email":"631824375@qq.com","email_verified":true,"created":"2018-08-19T14:24:02.616Z","updated":"2021-08-19T13:55:37.172Z","cidr_whitelist":null,"fullname":"wong yuan"}
 48 silly verifyNpmPackageAccess
 49 warn registry Unexpected warning for https://registry.npmjs.org/: Miscellaneous Warning ECONNRESET: request to https://registry.npmjs.org/-/org/yorkwong/package?format=cli failed, reason: read ECONNRESET
 50 warn registry Using stale data from https://registry.npmjs.org/ due to a request error during revalidation.
-51 http fetch GET 200 https://registry.npmjs.org/-/org/yorkwong/package?format=cli 39ms (from cache)
+51 http fetch GET 200 https://registry.npmjs.org/-/org/yorkwong/package?format=cli 19122ms (from cache)
 52 info Checking two-factor auth mode
 53 verbose Retrieving npm user profile
-54 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 19066ms (from cache)
+54 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 24ms (from cache)
 55 silly npm profile get received {"tfa":false,"name":"yorkwong","email":"631824375@qq.com","email_verified":true,"created":"2018-08-19T14:24:02.616Z","updated":"2021-08-19T13:55:37.172Z","cidr_whitelist":null,"fullname":"wong yuan"}
 56 silly 2FA false
 57 warn ENOLICENSE Package @kd-mwp/mwp-const is missing a license.
 57 warn ENOLICENSE One way to fix this is to add a LICENSE.md file to the root of this repository.
 57 warn ENOLICENSE See https://choosealicense.com for additional guidance.
 58 silly getCurrentSHA
-59 verbose getCurrentSHA bccf9bba2940334975b2d3dedfd19a8c1f90f2b7
+59 verbose getCurrentSHA d29a0884741bfa436562ca52c891d179ba7afed0
 60 silly lifecycle No script for "prepublish" in "mwp", continuing
 61 silly lifecycle No script for "prepare" in "mwp", continuing
 62 silly lifecycle No script for "prepublishOnly" in "mwp", continuing
