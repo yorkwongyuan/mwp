@@ -6,9 +6,9 @@
     "lerna": "^4.0.0"
   },
   "scripts": {
-    "build-http": "lerna run build --scope @mwp/mwp-http",
+    "build-config": "lerna run build --scope @mwp/mwp-config",
     "build-util": "lerna run build --scope @mwp/mwp-util",
-    "build": "concurrently \"npm run build-http\" \"npm run build-util\" \"npm run build-config\""
+    "build": "concurrently \"npm run build-config\""
   },
   "publishConfig": {
     "access": "public"

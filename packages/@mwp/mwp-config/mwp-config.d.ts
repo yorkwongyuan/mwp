@@ -1,3 +1,3 @@
-declare class mwpHttp {
+declare class mwpConfig {
   getName(params:string, age: number): string
 }

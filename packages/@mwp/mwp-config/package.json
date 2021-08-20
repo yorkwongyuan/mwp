@@ -1,12 +1,12 @@
 {
-  "name": "@mwsp/mwp-config",
-  "version": "3.0.1",
+  "name": "@mwp/mwp-config",
+  "version": "3.0.2",
   "description": "> TODO: description",
   "author": "yuan_wy_wang <631824375@qq.com>",
   "homepage": "https://github.com/yorkwongyuan/mwp#readme",
   "license": "ISC",
-  "main": "lib/mwp-http.js",
-  "typings": "mwp-http.d.ts",
+  "main": "lib/mwp-config.js",
+  "typings": "mwp-config.d.ts",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -26,6 +26,5 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "gitHead": "3b687a41e93834d06c52edad9926d4da64b314da"
+  }
 }
