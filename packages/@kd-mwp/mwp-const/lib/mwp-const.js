@@ -1,6 +1,9 @@
 'use strict';
 
-module.exports = function getName (name) {
-    this.name = name
-    this.age = 12
+module.exports = mwpConst;
+
+function mwpConst() {
+    this.getName = function (params) {
+        return params
+    }
 }
