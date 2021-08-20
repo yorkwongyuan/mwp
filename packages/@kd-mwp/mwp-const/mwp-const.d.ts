@@ -1,4 +1,4 @@
-declare module 'mwp-const' {
+declare module '@kd-mwp/mwp-const' {
     namespace REFERRAL {
       let UNRECEIVED:string;
       let HADACCEPTED:string;
