@@ -1,9 +1,11 @@
 'use strict';
 
-module.exports = mwpConfig;
+module.exports = mwpConst;
 
-function mwpConfig() {
+function mwpConst() {
+    // TODO
     this.getName = function (params) {
         return params
     }
 }
+

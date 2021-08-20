@@ -1,11 +1,11 @@
-# `@mwp/mwp-config`
+# `@mwp/mwp-const`
 
 > TODO: description
 
 ## Usage
 
 ```
-const mwpConfig = require('@mwp/mwp-config');
+const mwpConst = require('@mwp/mwp-const');
 
 // TODO: DEMONSTRATE API
 ```
