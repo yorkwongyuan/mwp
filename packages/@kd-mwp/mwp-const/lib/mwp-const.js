@@ -1,6 +1,6 @@
 'use strict';
 
-export const mwpConst = {
+module.exports = {
     REFERRAL: {
         UNRECEIVED: 'UNRECEIVED',
         HADACCEPTED: 'HADACCEPTED',

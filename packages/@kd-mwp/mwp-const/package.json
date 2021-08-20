@@ -6,7 +6,7 @@
   "homepage": "https://github.com/yorkwongyuan/mwp#readme",
   "license": "ISC",
   "main": "lib/mwp-const.js",
-  "types": "mwp-const.d.ts",
+  "typings": "mwp-const.d.ts",
   "directories": {
     "lib": "lib",
     "test": "__tests__"

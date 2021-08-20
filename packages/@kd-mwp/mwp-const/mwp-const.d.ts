@@ -1,5 +1,4 @@
-declare namespace mwpConst {
-  namespace REFERRAL {
+declare namespace REFERRAL {
     let UNRECEIVED:string;
     let HADACCEPTED:string;
     let HADREPORT:string;
@@ -8,4 +7,3 @@ declare namespace mwpConst {
     let REVOKE:string;
     let HAHA:string;
   }
-}
