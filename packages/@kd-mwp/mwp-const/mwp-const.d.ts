@@ -10,5 +10,5 @@ enum REFERRAL {
   HAHA
 }
 declare namespace mwpConst {
-  REFERRAL: REFERRAL
+  let REFERRAL: REFERRAL
 }
