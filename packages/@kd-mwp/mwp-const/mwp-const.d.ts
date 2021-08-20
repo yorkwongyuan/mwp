@@ -1,4 +1,4 @@
-import mwpConst from "./lib/mwp-const";
+// import mwpConst from "./lib/mwp-const";
 
 // 转诊数据
 declare namespace mwpConst {
