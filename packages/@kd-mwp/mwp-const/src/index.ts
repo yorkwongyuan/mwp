@@ -1,7 +1,6 @@
 'use strict';
 
-module.exports = MwpConst;
-
-function MwpConst() {
+export function MwpConst() {
     this.name = ''
-}
+};
+

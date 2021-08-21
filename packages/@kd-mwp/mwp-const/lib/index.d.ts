@@ -1,1 +1,1 @@
-declare function MwpConst(): void;
+export declare function MwpConst(): void;
