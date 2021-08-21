@@ -1,6 +1,10 @@
 'use strict';
 
-module.exports = function MwpConst() {
-    this.name = ''
-};
+const mwpConst = {
+    name: 'york',
+    getName () {
+        return 'str'
+    }
+}
 
+module.exports = mwpConst

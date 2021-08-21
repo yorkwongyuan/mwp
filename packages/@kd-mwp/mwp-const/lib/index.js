@@ -1,4 +1,8 @@
 'use strict';
-module.exports = function MwpConst() {
-    this.name = '';
+var mwpConst = {
+    name: 'york',
+    getName: function () {
+        return 'str';
+    }
 };
+module.exports = mwpConst;
