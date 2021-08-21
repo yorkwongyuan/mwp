@@ -1,3 +1,3 @@
-declare class mwpConst {
-  getName(): string
+export class MwpConst {
+  static name: string
 }
