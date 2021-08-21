@@ -1,6 +1,6 @@
 'use strict';
 
-export function MwpConst() {
+module.exports = function MwpConst() {
     this.name = ''
 };
 
