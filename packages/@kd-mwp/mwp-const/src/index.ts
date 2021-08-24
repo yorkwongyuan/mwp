@@ -7,4 +7,4 @@ class MwpConst {
     };
 }
 
-module.exports = MwpConst
+export default MwpConst

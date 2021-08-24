@@ -1,4 +1,5 @@
 'use strict';
+Object.defineProperty(exports, "__esModule", { value: true });
 var MwpConst = /** @class */ (function () {
     function MwpConst() {
     }
@@ -8,4 +9,4 @@ var MwpConst = /** @class */ (function () {
     ;
     return MwpConst;
 }());
-module.exports = MwpConst;
+exports.default = MwpConst;
