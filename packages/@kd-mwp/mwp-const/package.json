@@ -5,7 +5,7 @@
   "author": "yuan_wy_wang <631824375@qq.com>",
   "homepage": "https://github.com/yorkwongyuan/mwp#readme",
   "license": "ISC",
-  "main": "lib/mwp-const.js",
+  "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "directories": {
     "lib": "lib",
