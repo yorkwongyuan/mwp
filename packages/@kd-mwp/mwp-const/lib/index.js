@@ -1,19 +1,18 @@
-(function (factory) {
-    if (typeof module === "object" && typeof module.exports === "object") {
-        var v = factory(require, exports);
-        if (v !== undefined) module.exports = v;
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.MwpConst = void 0;
+// 枚举所有类型
+var appointmentENUM;
+(function (appointmentENUM) {
+    /** This is a description of the foo function. */
+    appointmentENUM["PENDING"] = "PENDING";
+})(appointmentENUM || (appointmentENUM = {}));
+exports.MwpConst = {
+    appointment: {
+        // 待确认
+        PENDING: appointmentENUM.PENDING
+    },
+    getName: function (str) {
+        return str;
     }
-    else if (typeof define === "function" && define.amd) {
-        define(["require", "exports"], factory);
-    }
-})(function (require, exports) {
-    "use strict";
-    Object.defineProperty(exports, "__esModule", { value: true });
-    exports.MwpConst = void 0;
-    exports.MwpConst = {
-        eventName: '12',
-        ListenerCount: function () {
-            console.log('12312321');
-        }
-    };
-});
+};

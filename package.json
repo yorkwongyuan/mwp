@@ -8,6 +8,8 @@
   "scripts": {
     "build-config": "lerna run build --scope @kd-mwp/mwp-config",
     "build-util": "lerna run build --scope @kd-mwp/mwp-util",
+    "start-const": "lerna exec --scope @kd-mwp/mwp-const npm start",
+    "start-config": "lerna exec --scope @kd-mwp/mwp-config npm start",
     "build": "concurrently \"npm run build-config\""
   },
   "publishConfig": {
