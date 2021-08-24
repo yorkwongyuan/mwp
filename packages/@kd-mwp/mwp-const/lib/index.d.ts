@@ -1,4 +1,4 @@
-declare const mwpConst: {
-    name: string;
-    getName(): string;
-};
+declare class MwpConst {
+    static eventName: string;
+    static ListenerCount(eventName: string): void;
+}

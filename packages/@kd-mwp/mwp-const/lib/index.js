@@ -1,8 +1,11 @@
 'use strict';
-var mwpConst = {
-    name: 'york',
-    getName: function () {
-        return 'str';
+var MwpConst = /** @class */ (function () {
+    function MwpConst() {
     }
-};
-module.exports = mwpConst;
+    MwpConst.ListenerCount = function (eventName) {
+        MwpConst.eventName = eventName;
+    };
+    ;
+    return MwpConst;
+}());
+module.exports = MwpConst;

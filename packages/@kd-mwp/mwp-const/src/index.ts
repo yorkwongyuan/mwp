@@ -1,10 +1,10 @@
 'use strict';
 
-const mwpConst = {
-    name: 'york',
-    getName () {
-        return 'str'
-    }
+class MwpConst {
+    static eventName: string;
+    static ListenerCount(eventName: string) {
+        MwpConst.eventName = eventName
+    };
 }
 
-module.exports = mwpConst
+module.exports = MwpConst

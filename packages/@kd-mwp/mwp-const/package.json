@@ -23,7 +23,7 @@
     "url": "git+https://github.com/yorkwongyuan/mwp.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "start": "tsc -w"
   },
   "bugs": {
     "url": "https://github.com/yorkwongyuan/mwp/issues"
