@@ -1,6 +1,2 @@
-declare module 'vue/types/vue' {
-    interface Vue {
-        $util: string;
-    }
-}
-export {};
+import Vue from 'vue';
+export declare function install(vue: typeof Vue): void;
