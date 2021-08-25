@@ -1,7 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.config = void 0;
-exports.config = {
+var config = {
     baseUrl: {
         dev: 'development.mhealth100.com',
         preproduction: 'preproduction.mhealth100.com',
@@ -13,9 +12,10 @@ exports.config = {
         www: 'https://api.mhealth100.com/gateway/zuul/files/upload?overwrite=true',
     },
     websocketUrl: {
-        dev: 'wss://development.mhealth100.com/',
-        preproduction: 'wss://preproduction.mhealth100.com/',
-        www: 'wss://wss.mhealth100.com/',
-        mp: 'wss://wss.mhealth100.com/'
+        dev: 'wss://development.mhealth100.com',
+        preproduction: 'wss://preproduction.mhealth100.com',
+        www: 'wss://wss.mhealth100.com',
+        mp: 'wss://wss.mhealth100.com'
     }
 };
+exports.default = config;

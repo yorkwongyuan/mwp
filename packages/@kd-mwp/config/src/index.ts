@@ -30,7 +30,7 @@ interface Iconfig {
   }
 }
 
-export const config:Iconfig = {
+const config:Iconfig = {
   baseUrl: {
     dev: 'development.mhealth100.com',
     preproduction: 'preproduction.mhealth100.com',
@@ -42,9 +42,11 @@ export const config:Iconfig = {
     www: 'https://api.mhealth100.com/gateway/zuul/files/upload?overwrite=true',
   },
   websocketUrl: {
-    dev: 'wss://development.mhealth100.com/',
-    preproduction: 'wss://preproduction.mhealth100.com/',
-    www: 'wss://wss.mhealth100.com/',
-    mp: 'wss://wss.mhealth100.com/'
+    dev: 'wss://development.mhealth100.com',
+    preproduction: 'wss://preproduction.mhealth100.com',
+    www: 'wss://wss.mhealth100.com',
+    mp: 'wss://wss.mhealth100.com'
   }
 }
+
+export default config
