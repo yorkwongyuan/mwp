@@ -475,4 +475,5 @@ export const $util: Iutil = {
     vue.prototype.$util = $util
   }
 }
+// 默认导出
 export default $util

@@ -50,5 +50,5 @@ export const myConfig:Iconfig = {
     mp: 'wss://wss.mhealth100.com'
   }
 }
-
+// 默认导出
 export default myConfig
