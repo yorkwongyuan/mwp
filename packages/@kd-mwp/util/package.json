@@ -22,7 +22,10 @@
     "url": "git+https://github.com/yorkwongyuan/mwp.git"
   },
   "scripts": {
-    "start": "tsc -w"
+    "start": "tsc -w",
+    "build": "tsc && npm run compile && npm run min",
+    "compile": "npx babel lib --out-dir lib --extensions '.js'",
+    "min": "npx gulp min"
   },
   "bugs": {
     "url": "https://github.com/yorkwongyuan/mwp/issues"

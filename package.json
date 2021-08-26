@@ -1,15 +1,24 @@
 {
   "name": "mwp",
   "private": true,
-  "workspaces": ["packages/@kd-mwp/*"],
+  "workspaces": [
+    "packages/@kd-mwp/*"
+  ],
   "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "gulp": "^4.0.2",
+    "gulp-rename": "^2.0.0",
+    "gulp-uglify": "^3.0.2",
     "lerna": "^4.0.0"
   },
   "scripts": {
-    "build-config": "lerna run build --scope @kd-mwp/mwp-config",
-    "build-util": "lerna run build --scope @kd-mwp/mwp-util",
+    "build-config": "lerna run build --scope @kd-mwp/config",
+    "build-util": "lerna exec --scope @kd-mwp/util npm run build",
     "start-util": "lerna exec --scope @kd-mwp/util npm start",
     "start-config": "lerna exec --scope @kd-mwp/config npm start",
+    "compile-config": "lerna exec --scope @kd-mwp/config npm run compile",
+    "min-config": "lerna exec --scope @kd-mwp/config npm run min",
+    "start-axios": "lerna exec --scope @kd-mwp/axios npm start",
     "build": "concurrently \"npm run build-config\""
   },
   "publishConfig": {
@@ -19,5 +28,12 @@
     "micro",
     "util",
     "lerna"
-  ]
+  ],
+  "dependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.14.7",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-typescript": "^7.15.0"
+  }
 }
