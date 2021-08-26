@@ -32,7 +32,7 @@ interface Iconfig {
 }
 
 
-export default {
+export const config:Iconfig = {
   baseUrl: {
     dev: 'development.mhealth100.com',
     preproduction: 'preproduction.mhealth100.com',
@@ -49,4 +49,6 @@ export default {
     www: 'wss://wss.mhealth100.com',
     mp: 'wss://wss.mhealth100.com'
   }
-} as Iconfig
+}
+
+export default config
