@@ -29,5 +29,5 @@ interface Iconfig {
         mp: string;
     };
 }
-declare const config: Iconfig;
-export default config;
+declare const _default: Iconfig;
+export default _default;
