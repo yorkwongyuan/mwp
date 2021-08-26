@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.config = void 0;
-exports.config = {
+exports.myConfig = void 0;
+exports.myConfig = {
     baseUrl: {
         dev: 'development.mhealth100.com',
         preproduction: 'preproduction.mhealth100.com',
@@ -19,4 +19,4 @@ exports.config = {
         mp: 'wss://wss.mhealth100.com'
     }
 };
-exports.default = exports.config;
+exports.default = exports.myConfig;

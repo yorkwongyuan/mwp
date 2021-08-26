@@ -32,7 +32,7 @@ interface Iconfig {
 }
 
 
-export const config:Iconfig = {
+export const myConfig:Iconfig = {
   baseUrl: {
     dev: 'development.mhealth100.com',
     preproduction: 'preproduction.mhealth100.com',
@@ -51,4 +51,4 @@ export const config:Iconfig = {
   }
 }
 
-export default config
+export default myConfig
