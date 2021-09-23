@@ -471,6 +471,66 @@ export const $util: Iutil = {
     // obj[vm.$route.path as any] = 0
     // sessionStorage.setItem('scrollDistance', JSON.stringify(obj))
   },
+  // 下载
+  downLoad (link, name) {
+    if (!name) {
+      name = link.slice(link.lastIndexOf('/'))
+    }
+    let a = document.createElement('a')
+    a.style.display = 'none'
+    a.href = link
+    a.download = name
+    document.body.appendChild(a)
+    a.click()
+    document.body.removeChild(a)
+  },
+  /**
+   * 
+   * @param num 随机数长度
+   */
+  randomId(num) {
+    return Math.random().toString(36).substr(3, num)
+  },
+  /**
+   * 
+   * @param rate 星级
+   */
+  startScore(rate) {
+    return "★★★★★☆☆☆☆☆".slice(5 - rate, 10 -rate)
+  },
+  /**
+   * 
+   * @param name 参数名
+   * @param locationSearch 路径
+   */
+  getURLSearchParams(name: string, locationSearch: typeof window.location.search = window.location.search) {
+    let _locationSearch = ''
+    if (locationSearch && locationSearch.indexOf('?')) {
+      _locationSearch = locationSearch.replace(/\?/g, '')
+    } else {
+      _locationSearch = locationSearch
+    }
+    let params = new URLSearchParams(_locationSearch)
+    return params.get(name) as string
+  },
+  // 获取时间戳
+  getTimeStamp (date: string) {
+    return +new Date(date)
+  },
+  dataType(data: any, type?: string) {
+    let dataType = Object.prototype.toString.call(data).replace(/\[object (\w+)]/, '$1')
+    return type ? dataType === type : dataType
+  },
+  isEmptyArr (arr: []) {
+    return Array.isArray(arr) && !arr.length
+  },
+  obscureArray(arr:[]) {
+    return arr.slice().sort(() => Math.random() - .5)
+  },
+  exchangeValue(data1: any, data2: any) {
+    [data2, data1] = [data1, data2]
+    return [data1, data2]
+  },
   install (vue: typeof Vue) {
     vue.prototype.$util = $util
   }

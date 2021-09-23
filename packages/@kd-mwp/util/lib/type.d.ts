@@ -176,4 +176,40 @@ export interface Iutil {
      * 清空v-scroll-cache自定义指令中的缓存的当前页面位置
      */
     clearPageScrollDistance: (vm: any) => void;
+    /**
+     * @link 下载的路径
+     */
+    downLoad: (link: string, name?: string) => void;
+    /**
+     * @num 随机数长度
+     */
+    randomId: (num: number) => string;
+    /**
+     * @rate 星级评价
+     */
+    startScore: (rate: number) => string;
+    getURLSearchParams: (name: string, url: typeof window.location.search) => string;
+    /**
+     * @date 格式为年月日，分割线可是一个-或者/
+     */
+    getTimeStamp: (date: string) => number;
+    /**
+     * @data 目标数据
+     * @type 数据类型(选填)
+     */
+    dataType: (data: any, type?: string) => boolean | string;
+    /**
+     * @arr 数组
+     */
+    isEmptyArr: (arr: []) => boolean;
+    /**
+     * @arr 混淆数组
+     */
+    obscureArray: (arr: []) => [] | never[];
+    /**
+     * @data1 数据1
+     * @data2 数据2
+     * 此方法用于两个变量交换赋值
+     */
+    exchangeValue: (data1: any, data2: any) => any[];
 }
