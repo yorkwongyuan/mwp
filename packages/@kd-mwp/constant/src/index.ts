@@ -13,6 +13,9 @@ const roleConstant = {
   HEALTHER: 'js009'
 }
 export const $constant: Iconstant = {
+  install (vue: typeof Vue) {
+    vue.prototype.$constant = $constant
+  },
   // 角色
   roles: {
     roleConstant,
@@ -30,8 +33,6 @@ export const $constant: Iconstant = {
     doctorRoles: ['js004', 'js005', 'js006', 'js007', 'js008', 'js009']
   }
 }
-export function install (vue: typeof Vue) {
-  vue.prototype.$constant = $constant
-}
+
 // 默认导出
 export default $constant
