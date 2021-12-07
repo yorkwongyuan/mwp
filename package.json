@@ -16,9 +16,8 @@
     "build-util": "lerna exec --scope @kd-mwp/util npm run build",
     "start-util": "lerna exec --scope @kd-mwp/util npm start",
     "start-config": "lerna exec --scope @kd-mwp/config npm start",
-    "compile-config": "lerna exec --scope @kd-mwp/config npm run compile",
-    "min-config": "lerna exec --scope @kd-mwp/config npm run min",
-    "start-axios": "lerna exec --scope @kd-mwp/axios npm start",
+    "start-constant": "lerna exec --scope @kd-mwp/constant npm start",
+    "build-constant": "lerna exec --scope @kd-mwp/constant npm run build",
     "build": "concurrently \"npm run build-config\""
   },
   "publishConfig": {
