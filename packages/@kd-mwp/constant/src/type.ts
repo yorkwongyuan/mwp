@@ -18,7 +18,7 @@ enum enumKeys {
   PHOTOER = 'PHOTOER',
   /** 检验师 */
   CHECKER = 'CHECKER',
-  /** 健康从业者 */
+  /** 健康从业者1 */
   HEALTHER = 'HEALTHER'
 }
 type keys = Record<enumKeys, string>
